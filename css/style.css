@@ -1,0 +1,19 @@
+body {
+    background-color: light-blue;
+    margin: 0 auto;
+    width: 1200px;
+}
+
+header {
+    margin-bottom: 100px;
+}
+
+main {
+    background-color: azure;
+    height: 500px;
+}
+
+footer {
+    background-color: deepskyblue;
+    height: 500px;
+}
