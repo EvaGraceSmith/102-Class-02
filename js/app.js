@@ -31,9 +31,9 @@ alert('Hello! ' + userName);
 // messages and replace them with the alerts() to complete the project.
 
 
-let isExecuted = confirm("Are you sure to execute this action?");
+let isExecuted = confirm("Are you excited to learn about me?");
 
-console.log(isExecuted); // OK = true, Cancel = false
+console.log(isExecuted); // YES = true, NO = false
 
 
 var yes = "Yes";
