@@ -2,6 +2,7 @@ body {
     background-color: lightblue;
     margin: 0 auto;
     width: 1200px;
+    padding-left: 10px;
 }
 
 header {
@@ -11,22 +12,39 @@ header {
 main {
     background-color: azure;
     height: 500px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Montserrat', sans-serif;
+    border-top: 20px;
 
 }
 h1 {
-    font-size: 50px;
+    font-family: 'Neucha', cursive;
+    font-size: 100px;
     color: #2b0ba8;
     margin: 10px;
     font-weight: 900;
+    margin-top: 20px;
+    padding-top: 20 px;
+    border-top: 20px;
+    text-align: center;
+    line-height: 140px;
+    
 }
 h2 {
+    font-family: 'Neucha', cursive;
+    color: rgb(77, 124, 139);
     font-size: 20px;
     font-weight: 400;
-    margin: 10px;
+    margin-left: 10px;
+    margin-top: 20px;
+    
 }
 p {
     font-size: 14px;
+    margin: 10px;
+}
+ul {
+    font-size: 14px;
+    line-height: 20px;
     margin: 10px;
 }
 footer {
