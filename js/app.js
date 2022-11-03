@@ -30,9 +30,9 @@ let question1 = prompt('First: Pineapple on pizza, yes or no?');
 let answer1 = question1.toUpperCase().trim();
 
 // Add console.log() messages within your app to notify the user
-// if they are correct. 
+// if they are correct.
 
-console.log (answer1);
+// console.log (answer1);
 // Be sure to let the user know if they answered the question
 // correctly by alerting them with a response.
 // Before submitting, comment out (don’t delete) your console.log()
@@ -49,7 +49,7 @@ if(answer1 === 'YES' || answer1 === 'Y'){
 let question2 = prompt('Does Eva go camping?');
 let answer2 = question2.toUpperCase().trim();
 
-console.log (answer2);
+// console.log (answer2);
 
 if(answer2 === 'YES' || answer2 === 'Y'){
   alert ('Do I ever! Campfires, hotdogs, and smores. Yes, please!');
@@ -62,7 +62,7 @@ if(answer2 === 'YES' || answer2 === 'Y'){
 let question3 = prompt('Is Eva Canadian?');
 let answer3 = question3.toUpperCase().trim();
 
-console.log (answer3);
+// console.log (answer3);
 
 if(answer3 === 'N0' || answer3 === 'N'){
   alert ('I am Iowan');
@@ -75,7 +75,7 @@ if(answer3 === 'N0' || answer3 === 'N'){
 let question4 = prompt('Do I like sunsets?');
 let answer4 = question4.toUpperCase().trim();
 
-console.log (answer4);
+// console.log (answer4);
 
 if(answer4 === 'YES' || answer4 === 'Y'){
   alert ('I am a total sunset girl!');
@@ -88,7 +88,7 @@ if(answer4 === 'YES' || answer4 === 'Y'){
 let question5 = prompt('Has Eva ever lived overseas?');
 let answer5 = question5.toUpperCase().trim();
 
-console.log (answer5);
+// console.log (answer5);
 
 if(answer5 === 'YES' || answer5 === 'Y'){
   alert ('I have lived in both Australia and New Zealand, two amazingly beautiful countries');
