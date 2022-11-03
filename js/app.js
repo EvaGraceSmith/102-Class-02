@@ -2,41 +2,19 @@
 'use strict';
 
 
-// prompt our user for some input.
 
-
-// As a user, I would like a personalized welcome message
-// so that I feel like I am interacting with the site owner.
-
-// Ask the user their name through a prompt()
 let userName= prompt('What is your name');
 console.log('user name: ' , userName);
 
 
-// Display that name back to the user through a
-// custom greeting welcoming them to your site.
-
 alert('Hello, ' + userName + '! Let\'s have some fun! Try guessing the answers to these questions about me:');
 
-
-// Prompt the user a total of exactly five yes or no questions.
-
-// The user input for the answer must accept either y/n or yes/no
-// responses while taking into consideration case sensitivity by
-// normalizing the user input so that it can be validated
-// (hint: look into the .toUpperCase() or .toLowerCase() functions).
 
 let question1 = prompt('First: Pineapple on pizza, yes or no?');
 let answer1 = question1.toUpperCase().trim();
 
-// Add console.log() messages within your app to notify the user
-// if they are correct.
 
 // console.log (answer1);
-// Be sure to let the user know if they answered the question
-// correctly by alerting them with a response.
-// Before submitting, comment out (don’t delete) your console.log()
-// messages and replace them with the alerts() to complete the project.
 
 if(answer1 === 'YES' || answer1 === 'Y'){
   alert ('YES! The only thing better than Hawaiian pizza is eating Hawaiian pizza in Hawaii!');
@@ -97,6 +75,60 @@ if(answer5 === 'YES' || answer5 === 'Y'){
 } else {
   alert ('Please remember enter: yes or no!');
 }
+// **********Lab 3 Assignment************
+// As a user, I would like to be guided to an answer 
+// through a series of feedback responses so that I can learn more 
+// about the site owner.
+// // Add a 6th question to the guessing game that takes in a numeric
+//  input by prompting the user to guess a number.
+
+
+let answer6;
+while(answer6 !== '4'){
+  answer6 = prompt('Guess a number between 1-10');
+  if (answer6 >'4'){
+    // // Indicates through an alert if the guess is “too high” or “too low”.
+    alert('That\'s too high! Try again!');
+  } else if (answer6 <'4'){
+    alert ('That\'s too low. Try again!');
+  } else
+  { alert('You are correct, 4 is the number!');
+  }
+
+}
+
+
+// // It should give the user exactly four opportunities to get the 
+// correct answer.
+
+// // After all attempts have been exhausted, tell the user the 
+// correct answer. Consider using a loop of some sort.
+
+
+// // As a user, I would like to guess the answer to a question that 
+// could have many possibilities so that I can have fun with with a 
+// guessing game.
+// // Add a 7th question that has multiple possible correct answers 
+// that are stored in an array.
+
+// // Give the user 6 attempts to guess the correct answer.
+
+// // The guesses will end once the user guesses a correct answer or 
+// they run out of attempts.
+
+// // Display all the possible correct answers to the user.
+
+// // Consider using a loop of some sort for this question.
+
+// // As a user, I would like to know my final score so that I can 
+// know how well I did.
+
+// // Keep track of the total number of correct answers. At the end 
+// tell them how many they got correct out of the 7 questions asked.
+
+// // In addition to the user stories stated above, continue to use 
+// console.logs throughout the code to track the questions that are 
+// being asked to the user,
 
 // Display the user’s name back to them in your final
 // message to the user.
