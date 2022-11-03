@@ -42,7 +42,7 @@ let answer3 = question3.toUpperCase().trim();
 
 // console.log (answer3);
 
-if(answer3 === 'N0' || answer3 === 'N'){
+if(answer3 === 'NO' || answer3 === 'N'){
   alert ('I am Iowan');
 } else if (answer3 === 'YES' || answer3 ==='Y'){
   alert ('I do really like Maple Syrup, but I am not Canadian.');
@@ -81,7 +81,11 @@ if(answer5 === 'YES' || answer5 === 'Y'){
 // about the site owner.
 // // Add a 6th question to the guessing game that takes in a numeric
 //  input by prompting the user to guess a number.
-  // // Indicates through an alert if the guess is “too high” or “too low”.
+// // Indicates through an alert if the guess is “too high” or “too low”.
+// // It should give the user exactly four opportunities to get the 
+// correct answer.
+// // After all attempts have been exhausted, tell the user the 
+// correct answer. Consider using a loop of some sort.
 
 let answer6;
 let loopcounter=0;
@@ -98,22 +102,50 @@ while(answer6 !== '4' && loopcounter<4){
   if (loopcounter===4)
   {alert('I\'m sorry, the correct answer was 4!');
   } }
-// console.log(answer6);
-
-// // It should give the user exactly four opportunities to get the 
-// correct answer.
-
-// // After all attempts have been exhausted, tell the user the 
-// correct answer. Consider using a loop of some sort.
-
+console.log(answer6);
 
 // // As a user, I would like to guess the answer to a question that 
 // could have many possibilities so that I can have fun with with a 
 // guessing game.
 // // Add a 7th question that has multiple possible correct answers 
 // that are stored in an array.
-
 // // Give the user 6 attempts to guess the correct answer.
+
+
+
+// *******FIRST ATTEMPT
+// let answer7;
+// loopcounter=0;
+// while(answer7 !== 'fruit' && loopcounter<6){
+//   loopcounter ++;
+//   answer7 = prompt('Can you guess some of my favorite fruits to pack for lunch?');
+// const fruit = ['grapes', 'bananas', 'strawberries', 'blueberries', 'apples'];
+// console.log(fruit);
+
+
+
+// *******SECOND ATTEMPT
+
+
+let fruit = ['grapes', 'bananas', 'strawberries', 'blueberries', 'apples'];
+console.log(fruit.length);
+let attempts = 0;
+let correctAnswer = 0;
+
+while (attempts !==7){
+  let userAnswer7 = prompt('Can you guess some of my favorite fruits to pack for lunch?');
+  let userAnswerTrimmedToLower = userAnswer7.toLowerCase().trim();
+  if (fruit.indexOf(userAnswerTrimmedToLower) >= 0) {
+    alert('Yes! + userAnswer7 + is one of my favorite fruits!');
+    correctAnswer++;
+  } else {
+  alert('That is a great fruit, but not one of my favorites!')
+}
+attempts++;
+}
+
+
+
 
 // // The guesses will end once the user guesses a correct answer or 
 // they run out of attempts.
