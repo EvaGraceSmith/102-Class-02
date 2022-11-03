@@ -92,11 +92,12 @@ while(answer6 !== '4' && loopcounter<4){
     alert('That\'s too high! Try again!');
   } else if (answer6 <'4'){
     alert ('That\'s too low. Try again!');
-  } else if (answer6 ==='4')
-  { alert('You are correct, the number is 4!');
   } else
-  {alert('I\'m sorry, the correct answer was 4!);
-} }
+  { alert('You are correct, the number is 4!');
+  }
+  if (loopcounter===4)
+  {alert('I\'m sorry, the correct answer was 4!');
+  } }
 // console.log(answer6);
 
 // // It should give the user exactly four opportunities to get the 
