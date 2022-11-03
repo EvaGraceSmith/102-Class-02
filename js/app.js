@@ -81,22 +81,24 @@ if(answer5 === 'YES' || answer5 === 'Y'){
 // about the site owner.
 // // Add a 6th question to the guessing game that takes in a numeric
 //  input by prompting the user to guess a number.
-
+  // // Indicates through an alert if the guess is “too high” or “too low”.
 
 let answer6;
-while(answer6 !== '4'){
+let loopcounter=0;
+while(answer6 !== '4' && loopcounter<4){
+  loopcounter ++;
   answer6 = prompt('Guess a number between 1-10');
   if (answer6 >'4'){
-    // // Indicates through an alert if the guess is “too high” or “too low”.
     alert('That\'s too high! Try again!');
   } else if (answer6 <'4'){
     alert ('That\'s too low. Try again!');
-  } else
-  { alert('You are correct, 4 is the number!');
-  }
-
-}
-
+  } else  
+  // if (answer6 =='4')
+  { alert('You are correct, the number is 4!');
+  // } else
+  // {alert('I\'m sorry, the correct answer was 4!)};
+} }
+// console.log(answer6);
 
 // // It should give the user exactly four opportunities to get the 
 // correct answer.
