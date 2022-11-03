@@ -136,10 +136,10 @@ while (attempts !==7){
   let userAnswer7 = prompt('Can you guess some of my favorite fruits to pack for lunch?');
   let userAnswerTrimmedToLower = userAnswer7.toLowerCase().trim();
   if (fruit.indexOf(userAnswerTrimmedToLower) >= 0) {
-    alert('Yes! + userAnswer7 + is one of my favorite fruits!');
+    alert('Yes! ' + userAnswer7 + ' is one of my favorite fruits!');
     correctAnswer++;
   } else {
-  alert('That is a great fruit, but not one of my favorites!')
+    alert('That is a great fruit, but not one of my favorites!');
 }
 attempts++;
 }
