@@ -22,6 +22,7 @@
         your education history, an overview of your job experience, 
         and any goals that you may have. -->
     <header>
+       
         <nav>
             <ul>
             <li><a href="index.html">Home Page</a></li>
@@ -29,35 +30,48 @@
             <li><a href="aboutme.html">About Me</a></li>
             </ul>
         </nav>
+    
     </header>
 <main>
-       <h1>About Me</h1> 
+    <div class="content-wrap">
+       <h1>Eva Grace Smith</h1> 
        <!-- **********Short Biography ******* -->
-       <p>Hi! My name is Eva Grace Smith</p>
+       
     
         <p>I love art and have spent time as a potter, a glass fuser, a florist.
         </p>
-        
+    </div>
 <!-- **********Education History ******* -->
 <!-- *Convert your work experience and education summary into an 
 unordered list using HTML -->
+
+<section class="education">
+    <div class="content-wrap item-details">
 <h2>Education</h2>
         <p>
-            <ul>
-                <li>I have a Bachelor of Science in Youth ministry from Columbia International University in
-                Columbia, SC. </li>
-                <li>I also have a Certificate in floral careers from Kirkwood Community College.</li>
-                <li>Most recently, I am pursuing a certificate in Advanced Software development from DeltaV in 
-                Cedar Rapids, IA.</li>
+            <section>
+                <h4>DeltaV -Cedar Rapids, IA </h4>
+                <p>Certificate: Advanced Software Development in Full-Stack JavaScript, 2023</p>
+            </section>
+            <section>
+                <h4>Kirkwood Community College -Cedar Rapids, IA</h4>
+                <p>Certificate: Floral Careers, 2007</li></p>
+            </section>
+            <section>
+                <h4>Columbia International University- Columbia, SC</h4>
+                <p>Bachelor of Science- Youth Ministry, 1998</p>
+            </section>
+            <section>
+                <h4>University of Iowa -Iowa City, IA</h4>
+                <p>Pre-Med Honors Student, 1995</p>
+            </section>
         </ul>
         </p>
-
+    </div>
 <!-- **********Overview of Job Experience ******* -->
+<div class="content-wrap">
 <h2>Experience</h2>
-        <p>I realized I enjoyed design work while working for McLeodUSA as a graphic designer right out of college.
-        </p>
-        <p>I continued to dabble in graphic design and web building while working with youth (a huge passion of mine!) for several non-profit organizations.
-        </p>
+      
         <ul>
             <li>McLeodUSA, Cedar Rapids, IA- Graphic designer</li>
             <li>Woodmen Valley Chapel, Colorado Springs, CO- Youth Leader</li>
@@ -66,15 +80,22 @@ unordered list using HTML -->
             <li>Transamerica-Cedar Rapids, IA CSR</li>
             <li>Occasions Floral Art Studio, Cedar Rapids, IA Floral Designer</li>
             <li>YMCA, Cedar Rapids, IA Building Supervisor</li>
+            <li>Home, Cedar Rapids, IA, Educator</li>
             
         </ul>
-
+    </div>
 <!-- **********Goals I may have ********* -->
-<h2>Goals</h2>
-        <p>I am excited to be back in the classroom, combining my passions and skills to enter a new career path, while learning alongside some great classmates!
-        </p>
+<div class="content-wrap">
+<h2>Passions</h2>
+<ul>
+ <li>Award-winning Photographer</li>
+ <li>Award-winning Florist</li>
+ <li>Fused Glass Artist</li>
+ <li>Ceramic Artist</li>
+ <li>Youth Mentor</li>
+</ul>
 
-
+</div>
     </main>
 
 <!-- * Create a “Top Ten” at the bottom of your HTML page as an ordered 
@@ -84,8 +105,9 @@ You may choose to do whatever top ten list that you wish. -->
 
   
 <footer>
-    <h2>Top Ten Places I have visited</h2>
-        <ol>
+    <div class="content-wrap"></div>
+    <h3>Top Ten Places I have visited</h3>
+        <ol class="topten">
             <li>1. Great Barrier Reef, Australia</li>
             <li>2. Kauai Na Pali Coast State Wilderness Park, Hawaii</li>
             <li>3. Blue Mountains, Sydney, Australia</li>
@@ -97,9 +119,9 @@ You may choose to do whatever top ten list that you wish. -->
             <li>9. Yosemite National Park, California</li>
             <li>10.Kapiti Coast, New Zealand</li>
         </ol>
-
+    </div>
 </footer>
 
-        <script src="js/app.js"></script>
+        <!-- <script src="js/app.js"></script> -->
     </body>
 </html>
