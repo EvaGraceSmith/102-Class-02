@@ -65,16 +65,24 @@ ul {
     margin: 10px;
     list-style-type: disc;
 }
+.spacing {
+  line-height: 1.5;
+}
 .topten {
   font-family: 'Montserrat', sans-serif;
   color: whitesmoke;
   font-size: 14px;
   line-height: 20px;
-    margin: 10px;
-    text-align: center;
+    margin: 30px;
+  
 }
 ol {
   list-style-type: decimal;
+  list-style-position: outside;
+}
+span {
+  position: relative;
+  left: 10px;
 }
  
 footer {
