@@ -19,14 +19,12 @@ let answer1 = question1.toUpperCase().trim();
 if(answer1 === 'YES' || answer1 === 'Y'){
   alert ('YES! The only thing better than Hawaiian pizza is eating Hawaiian pizza in Hawaii!');
   userPoints = userPoints + 1;
-
-  console.log('did we get a point? ', userPoints);
-
 } else if (answer1 === 'NO' || answer1 ==='N'){
   alert ('I Heart pineapple!');
 } else {
   alert ('Please remember enter: yes or no!');
 }
+console.log('did we get a point? ', userPoints);
 
 let question2 = prompt('Does Eva go camping?');
 let answer2 = question2.toUpperCase().trim();
@@ -80,15 +78,15 @@ if(answer5 === 'YES' || answer5 === 'Y'){
   alert ('Please remember enter: yes or no!');
 }
 // **********Lab 3 Assignment************
-// As a user, I would like to be guided to an answer 
-// through a series of feedback responses so that I can learn more 
+// As a user, I would like to be guided to an answer
+// through a series of feedback responses so that I can learn more
 // about the site owner.
 // // Add a 6th question to the guessing game that takes in a numeric
 //  input by prompting the user to guess a number.
 // // Indicates through an alert if the guess is “too high” or “too low”.
-// // It should give the user exactly four opportunities to get the 
+// // It should give the user exactly four opportunities to get the
 // correct answer.
-// // After all attempts have been exhausted, tell the user the 
+// // After all attempts have been exhausted, tell the user the
 // correct answer. Consider using a loop of some sort.
 
 let answer6;
@@ -108,12 +106,14 @@ while(answer6 !== '4' && loopcounter<4){
   } }
 console.log(answer6);
 
-// // As a user, I would like to guess the answer to a question that 
-// could have many possibilities so that I can have fun with with a 
+// // As a user, I would like to guess the answer to a question that
+// could have many possibilities so that I can have fun with with a
 // guessing game.
-// // Add a 7th question that has multiple possible correct answers 
+// // Add a 7th question that has multiple possible correct answers
 // that are stored in an array.
 // // Give the user 6 attempts to guess the correct answer.
+// The guesses will end once the user guesses a correct answer
+// or they run out of attempts.
 
 
 
@@ -134,44 +134,42 @@ console.log(answer6);
 let fruit = ['grapes', 'bananas', 'strawberries', 'blueberries', 'apples'];
 console.log(fruit.length);
 let attempts = 0;
-// let correctAnswer = 0;
+let correctAnswer = false;
 
-while (attempts !==6){
+while (attempts !==6 && correctAnswer === false){
   let userAnswer7 = prompt('Can you guess some of my favorite fruits to pack for lunch?');
   let userAnswerTrimmedToLower = userAnswer7.toLowerCase().trim();
   if (fruit.indexOf(userAnswerTrimmedToLower) >= 0) {
-    alert('Yes! ' + userAnswer7 + ' is one of my favorite fruits!');
-    userPoints = userPoints + 1;
-    userPoints += 1;
     userPoints++;
     // I don't know what correct Answer++ is doing
-    // correctAnswer++;
+    correctAnswer=true;
+    alert('Yes! ' + userAnswer7 + ' is one of my favorite fruits!');
   } else {
     alert('That is a great fruit, but not one of my favorites!');
-}
-// I don't know what attempts++ is doing
-// attempts++;
+  }
+  // I don't know what attempts++ is doing Answer: adding 1 til gets to 6
+  attempts++;
 }
 console.log('did we get a point?', userPoints);
 
 
 
 
-// // The guesses will end once the user guesses a correct answer or 
+// // The guesses will end once the user guesses a correct answer or
 // they run out of attempts.
 
 // // Display all the possible correct answers to the user.
 
 // // Consider using a loop of some sort for this question.
 
-// // As a user, I would like to know my final score so that I can 
+// // As a user, I would like to know my final score so that I can
 // know how well I did.
 
-// // Keep track of the total number of correct answers. At the end 
+// // Keep track of the total number of correct answers. At the end
 // tell them how many they got correct out of the 7 questions asked.
 
-// // In addition to the user stories stated above, continue to use 
-// console.logs throughout the code to track the questions that are 
+// // In addition to the user stories stated above, continue to use
+// console.logs throughout the code to track the questions that are
 // being asked to the user,
 
 // Display the user’s name back to them in your final
