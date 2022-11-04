@@ -57,16 +57,20 @@ h3 {
 }
 p {
     font-size: 14px;
-    margin: 10px;
+    margin-left: 10px;
 }
 ul {
     font-size: 14px;
-    line-height: 20px;
     margin: 10px;
     list-style-type: disc;
 }
+.item-details {
+  font-size: 14px;
+  line-height: 20px;
+  margin: 10px;
+}
 .spacing {
-  line-height: 1.5;
+  line-height: 20px;
 }
 .topten {
   font-family: 'Montserrat', sans-serif;

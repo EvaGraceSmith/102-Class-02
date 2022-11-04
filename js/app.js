@@ -7,9 +7,9 @@ let userName= prompt('What is your name');
 console.log('user name: ' , userName);
 
 
-alert('Hello, ' + userName + '! Let\'s have some fun! Try guessing the answers to these questions about me:');
+alert('Hello, ' + userName + '! Let\'s have some fun! Try guessing the answers to these questions about me. Each correct answer earns you a point!');
 
-
+let userPoints = 0;
 let question1 = prompt('First: Pineapple on pizza, yes or no?');
 let answer1 = question1.toUpperCase().trim();
 
@@ -18,6 +18,10 @@ let answer1 = question1.toUpperCase().trim();
 
 if(answer1 === 'YES' || answer1 === 'Y'){
   alert ('YES! The only thing better than Hawaiian pizza is eating Hawaiian pizza in Hawaii!');
+  userPoints = userPoints + 1;
+
+  console.log('did we get a point? ', userPoints);
+
 } else if (answer1 === 'NO' || answer1 ==='N'){
   alert ('I Heart pineapple!');
 } else {
@@ -130,19 +134,25 @@ console.log(answer6);
 let fruit = ['grapes', 'bananas', 'strawberries', 'blueberries', 'apples'];
 console.log(fruit.length);
 let attempts = 0;
-let correctAnswer = 0;
+// let correctAnswer = 0;
 
-while (attempts !==7){
+while (attempts !==6){
   let userAnswer7 = prompt('Can you guess some of my favorite fruits to pack for lunch?');
   let userAnswerTrimmedToLower = userAnswer7.toLowerCase().trim();
   if (fruit.indexOf(userAnswerTrimmedToLower) >= 0) {
     alert('Yes! ' + userAnswer7 + ' is one of my favorite fruits!');
-    correctAnswer++;
+    userPoints = userPoints + 1;
+    userPoints += 1;
+    userPoints++;
+    // I don't know what correct Answer++ is doing
+    // correctAnswer++;
   } else {
     alert('That is a great fruit, but not one of my favorites!');
 }
-attempts++;
+// I don't know what attempts++ is doing
+// attempts++;
 }
+console.log('did we get a point?', userPoints);
 
 
 
