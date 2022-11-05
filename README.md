@@ -1,14 +1,15 @@
-# LAB - Number
+# LAB - 02, 03
 
-## Project Name
+## About Me
 
-I build an app with a direct and powerful purpose. It does all of the things that it accomplishes well. I should describe the purpose and functionality so those that visit my README understand the app
+This project introduces new JavaScript functionality. Console Log, If else conditions, Loops and arrays. And infinite loops. (oops!)
 
-### Author: Student/Group Name
+### Author: Eva Grace Smith
 
 ### Links and Resources
-* [submission PR](http://xyz.com)
-* Any Links you used as reference
+* https://github.com/DeltaVCode/cedarrapids-code-201n4/blob/main/class-03/demo-arrays-loops/js/demo.js
+* https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Arrays
+
 
 ### Reflections and Comments
 * Consider including the answers to your daily journal and submission questions here

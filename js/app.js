@@ -153,13 +153,14 @@ while (attempts !==6 && correctAnswer === false){
     userPoints++;
     // I don't know what correct Answer++ is doing
     correctAnswer=true;
-    alert('Yes! ' + userAnswer7 + ' is one of my favorite fruits!');
+    alert('Yes! ' + userAnswer7 + ' is one of my favorite fruits! I love grapes, bananas, strawberries, blueberries and apples.');
   } else {
     alert('That is a great fruit, but not one of my favorites!');
   }
   // I don't know what attempts++ is doing Answer: adding 1 til gets to 6
   attempts++;
 }
+console.log('userAnswer', userAnswer7);
 console.log('did we get a point?', userPoints);
 
 
