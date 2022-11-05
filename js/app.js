@@ -151,6 +151,7 @@ while (attempts !==6 && correctAnswer === false){
   let userAnswerTrimmedToLower = userAnswer7.toLowerCase().trim();
   if (fruit.indexOf(userAnswerTrimmedToLower) >= 0) {
     userPoints++;
+    console.log('userAnswer', userAnswer7);
     // I don't know what correct Answer++ is doing
     correctAnswer=true;
     alert('Yes! ' + userAnswer7 + ' is one of my favorite fruits! I love grapes, bananas, strawberries, blueberries and apples.');
@@ -160,7 +161,7 @@ while (attempts !==6 && correctAnswer === false){
   // I don't know what attempts++ is doing Answer: adding 1 til gets to 6
   attempts++;
 }
-console.log('userAnswer', userAnswer7);
+
 console.log('did we get a point?', userPoints);
 
 
