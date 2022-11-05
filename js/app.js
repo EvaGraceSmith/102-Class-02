@@ -10,6 +10,7 @@ console.log('user name: ' , userName);
 alert('Hello, ' + userName + '! Let\'s have some fun! Try guessing the answers to these questions about me. Each correct answer earns you a point!');
 
 let userPoints = 0;
+function getAnswer1() {
 let question1 = prompt('First: Pineapple on pizza, yes or no?');
 let answer1 = question1.toUpperCase().trim();
 
@@ -25,7 +26,10 @@ if(answer1 === 'YES' || answer1 === 'Y'){
   alert ('Please remember enter: yes or no!');
 }
 console.log('did we get a point? ', userPoints);
+}
+getAnswer1();
 
+function getAnswer2() {
 let question2 = prompt('Does Eva go camping?');
 let answer2 = question2.toUpperCase().trim();
 
@@ -40,7 +44,10 @@ if(answer2 === 'YES' || answer2 === 'Y'){
   alert ('Please remember enter: yes or no!');
 }
 console.log('did we get a point?', userPoints);
+}
+getAnswer2();
 
+function getAnswer3() {
 let question3 = prompt('Is Eva Canadian?');
 let answer3 = question3.toUpperCase().trim();
 
@@ -54,8 +61,12 @@ if(answer3 === 'NO' || answer3 === 'N'){
 } else {
   alert ('Please remember enter: yes or no!');
 }
+}
 console.log('did we get a point?', userPoints);
 
+getAnswer3();
+
+function getAnswer4() {
 let question4 = prompt('Do I like sunsets?');
 let answer4 = question4.toUpperCase().trim();
 
@@ -69,8 +80,11 @@ if(answer4 === 'YES' || answer4 === 'Y'){
 } else {
   alert ('Please remember enter: yes or no!');
 }
+}
 console.log('did we get a point?', userPoints);
+getAnswer4();
 
+function getAnswer5(){
 let question5 = prompt('Has Eva ever lived overseas?');
 let answer5 = question5.toUpperCase().trim();
 
@@ -84,7 +98,10 @@ if(answer5 === 'YES' || answer5 === 'Y'){
 } else {
   alert ('Please remember enter: yes or no!');
 }
+}
 console.log('did we get a point?', userPoints);
+getAnswer5();
+
 // **********Lab 3 Assignment************
 // As a user, I would like to be guided to an answer
 // through a series of feedback responses so that I can learn more
@@ -97,6 +114,7 @@ console.log('did we get a point?', userPoints);
 // // After all attempts have been exhausted, tell the user the
 // correct answer. Consider using a loop of some sort.
 
+function getAnswer6() {
 let answer6;
 let loopcounter=0;
 while(answer6 !== '4' && loopcounter<4){
@@ -115,6 +133,8 @@ while(answer6 !== '4' && loopcounter<4){
   } }
 console.log(answer6);
 console.log('did we get a point?', userPoints);
+}
+getAnswer6();
 
 // // As a user, I would like to guess the answer to a question that
 // could have many possibilities so that I can have fun with with a
@@ -140,7 +160,7 @@ console.log('did we get a point?', userPoints);
 
 // *******SECOND ATTEMPT
 
-
+function getAnswer7() {
 let fruit = ['grapes', 'bananas', 'strawberries', 'blueberries', 'apples'];
 console.log(fruit.length);
 let attempts = 0;
@@ -160,10 +180,12 @@ while (attempts !==6 && correctAnswer === false){
   }
   // I don't know what attempts++ is doing Answer: adding 1 til gets to 6
   attempts++;
+
 }
 
 console.log('did we get a point?', userPoints);
-
+}
+getAnswer7();
 
 
 
