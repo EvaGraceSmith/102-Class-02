@@ -12,5 +12,4 @@ This project introduces new JavaScript functionality. Console Log, If else condi
 
 
 ### Reflections and Comments
-* Consider including the answers to your daily journal and submission questions here
-* This is also a good place to reflect on the tools and resources used and learned
+*Trying to add functions to my document. 

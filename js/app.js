@@ -1,13 +1,13 @@
 
 'use strict';
+console.log ('hello from the js file');
 
 
 
 let userName= prompt('What is your name');
 console.log('user name: ' , userName);
-
-
 alert('Hello, ' + userName + '! Let\'s have some fun! Try guessing the answers to these questions about me. Each correct answer earns you a point!');
+
 
 let userPoints = 0;
 let question1 = prompt('First: Pineapple on pizza, yes or no?');
@@ -188,6 +188,7 @@ console.log('did we get a point?', userPoints);
 // message to the user.
 alert('Thank you for visiting my site, ' + userName + ' !' + 'You earned ' + userPoints + ' points out of 7! Congratulations!');
 
+getUserName();
 
 // **************END OF CODE**************
 
