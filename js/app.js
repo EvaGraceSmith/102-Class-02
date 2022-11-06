@@ -187,9 +187,6 @@ console.log('did we get a point?', userPoints);
 // Display the user’s name back to them in your final
 // message to the user.
 alert('Thank you for visiting my site, ' + userName + ' !' + 'You earned ' + userPoints + ' points out of 7! Congratulations!');
-
-getUserName();
-
 // **************END OF CODE**************
 
 
