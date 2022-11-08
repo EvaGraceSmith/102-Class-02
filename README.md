@@ -12,4 +12,4 @@ This project introduces new JavaScript functionality. Console Log, If else condi
 
 
 ### Reflections and Comments
-*Trying to add functions to my document. 
+*Lab Class 4 Assignment. Driver and Navigator. Beth Rissman was the Driver, and I was the Navigator

@@ -7,7 +7,10 @@ body {
 
 header {
     margin-bottom: 50px;
+    background-color: rgb(77, 124, 139);
+    height: 50px;
 }
+
 .content-wrap {
   max-width: 500px;
   width: 85%;
@@ -15,9 +18,33 @@ header {
   padding: 0px 0;
   }
 
+.navigation-bar {
+  display: flex;
+  justify-content: center;
+  font-family: 'Neucha', cursive;
+  font-size: 14px;
+  font-weight: 800;
+  color:  azure;
+  padding: 15px;
+  list-style-type: none;
+}
+
+.navigation-bar a {
+  padding-left: 45px;
+  padding-right: 45px;
+}
+
+a {
+  color: azure;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
 main {
     background-color: azure;
-    height: 850px;
+    height: 900px;
     font-family: 'Montserrat', sans-serif;
     border-top: 20px;
 
@@ -35,6 +62,13 @@ h1 {
     line-height: 140px;
     
 }
+
+.biography {
+  line-height: 20px;
+  font-size: 16;
+  text-align: center;
+}
+
 h2 {
     font-family: 'Neucha', cursive;
     color: rgb(77, 124, 139);
