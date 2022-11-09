@@ -14,7 +14,7 @@ let userPoints = 0;
 function question1(){
   let question1 = prompt('First: Pineapple on pizza, yes or no?');
   let answer1 = question1.toUpperCase().trim();
-  // console.log (answer1);
+
   if(answer1 === 'YES' || answer1 === 'Y'){
     alert ('YES! The only thing better than Hawaiian pizza is eating Hawaiian pizza in Hawaii!');
     userPoints++;
@@ -33,7 +33,7 @@ function question2(){
   let question2 = prompt('Does Eva go camping?');
   let answer2 = question2.toUpperCase().trim();
 
-  // console.log (answer2);
+
 
   if(answer2 === 'YES' || answer2 === 'Y'){
     alert ('Do I ever! Campfires, hotdogs, and smores. Yes, please!');
@@ -54,7 +54,6 @@ function question3(){
   let question3 = prompt('Is Eva Canadian?');
   let answer3 = question3.toUpperCase().trim();
 
-  // console.log (answer3);
 
   if(answer3 === 'NO' || answer3 === 'N'){
     alert ('I am Iowan');
@@ -73,7 +72,6 @@ function question4(){
   let question4 = prompt('Do I like sunsets?');
   let answer4 = question4.toUpperCase().trim();
 
-  // console.log (answer4);
 
   if(answer4 === 'YES' || answer4 === 'Y'){
     alert ('I am a total sunset girl!');
@@ -94,7 +92,7 @@ function question5(){
   let question5 = prompt('Has Eva ever lived overseas?');
   let answer5 = question5.toUpperCase().trim();
 
-  // console.log (answer5);
+
 
   if(answer5 === 'YES' || answer5 === 'Y'){
     alert ('I have lived in both Australia and New Zealand, two amazingly beautiful countries');
@@ -145,13 +143,12 @@ function question7(){
     if (fruit.indexOf(userAnswerTrimmedToLower) >= 0) {
       userPoints++;
       console.log('userAnswer', userAnswer7);
-      // I don't know what correct Answer++ is doing
+
       correctAnswer=true;
       alert('Yes! ' + userAnswer7 + ' is one of my favorite fruits! I love grapes, bananas, strawberries, blueberries and apples.');
     } else {
       alert('That is a great fruit, but not one of my favorites!');
     }
-    // I don't know what attempts++ is doing Answer: adding 1 til gets to 6
     attempts++;
   }
 
