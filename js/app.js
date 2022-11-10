@@ -1,11 +1,10 @@
 
 'use strict';
-console.log ('hello from the js file');
+
 
 
 
 let userName= prompt('What is your name');
-console.log('user name: ' , userName);
 alert('Hello, ' + userName + '! Let\'s have some fun! Try guessing the answers to these questions about me. Each correct answer earns you a point!');
 
 
@@ -23,7 +22,6 @@ function question1(){
   } else {
     alert ('Please remember enter: yes or no!');
   }
-  console.log('did we get a point? ', userPoints);
 }
 question1();
 
@@ -43,7 +41,7 @@ function question2(){
   } else {
     alert ('Please remember enter: yes or no!');
   }
-  console.log('did we get a point?', userPoints);
+  
 }
 
 
@@ -63,8 +61,6 @@ function question3(){
   } else {
     alert ('Please remember enter: yes or no!');
   }
-
-  console.log('did we get a point?', userPoints);
 }
 
 
@@ -81,7 +77,6 @@ function question4(){
   } else {
     alert ('Please remember enter: yes or no!');
   }
-  console.log('did we get a point?', userPoints);
 }
 
 
@@ -102,7 +97,6 @@ function question5(){
   } else {
     alert ('Please remember enter: yes or no!');
   }
-  console.log('did we get a point?', userPoints);
 }
 
 
@@ -125,15 +119,12 @@ function question6(){
     if (loopcounter===4)
     {alert('I\'m sorry, the correct answer was 4!');
     } }
-  console.log(answer6);
-  console.log('did we get a point?', userPoints);
 }
 
 
 
 function question7(){
   let fruit = ['grapes', 'bananas', 'strawberries', 'blueberries', 'apples'];
-  console.log(fruit.length);
   let attempts = 0;
   let correctAnswer = false;
 
@@ -142,8 +133,6 @@ function question7(){
     let userAnswerTrimmedToLower = userAnswer7.toLowerCase().trim();
     if (fruit.indexOf(userAnswerTrimmedToLower) >= 0) {
       userPoints++;
-      console.log('userAnswer', userAnswer7);
-
       correctAnswer=true;
       alert('Yes! ' + userAnswer7 + ' is one of my favorite fruits! I love grapes, bananas, strawberries, blueberries and apples.');
     } else {
@@ -151,8 +140,6 @@ function question7(){
     }
     attempts++;
   }
-
-  console.log('did we get a point?', userPoints);
 }
 
 question2();
