@@ -47,7 +47,6 @@ main {
     height: 900px;
     font-family: 'Montserrat', sans-serif;
     border-top: 20px;
-
 }
 
 .contact-me .btn{
@@ -58,6 +57,7 @@ main {
   border-radius: 4px;
   display: inline-block;
   }
+
   .contact-me .btn:hover{
     background: #4b7398;
   }
@@ -72,8 +72,7 @@ h1 {
     padding-top: 20 px;
     border-top: 20px;
     text-align: center;
-    line-height: 140px;
-    
+    line-height: 140px;   
 }
 
 .biography {
@@ -88,9 +87,9 @@ h2 {
     font-size: 25px;
     font-weight: 400;
     margin-left: 10px;
-    margin-top: 20px;
-    
+    margin-top: 20px;   
 }
+
 h3 {
   font-family: 'Neucha', cursive;
   color: azure;
@@ -100,37 +99,42 @@ h3 {
     margin-top: 20px;
     padding-top: 20px;
     text-align: center;
-
 }
+
 p {
     font-size: 14px;
     margin-left: 10px;
 }
+
 ul {
     font-size: 14px;
     margin: 10px;
     list-style-type: disc;
 }
+
 .item-details {
   font-size: 14px;
   line-height: 20px;
   margin: 10px;
 }
+
 .spacing {
   line-height: 20px;
 }
+
 .topten {
   font-family: 'Montserrat', sans-serif;
   color: whitesmoke;
   font-size: 14px;
   line-height: 20px;
-    margin: 30px;
-  
+    margin: 30px; 
 }
+
 ol {
   list-style-type: decimal;
   list-style-position: outside;
 }
+
 span {
   position: relative;
   left: 10px;

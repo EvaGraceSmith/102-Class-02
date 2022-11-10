@@ -1,0 +1,46 @@
+body {
+    background-color: lightblue;
+    margin: 0 auto;
+    width: 1200px;
+}
+
+header {
+    margin-bottom: 50px;
+    background-color: rgb(77, 124, 139);
+    height: 50px;
+}
+
+.content-wrap {
+  max-width: 500px;
+  width: 85%;
+  margin: 0 auto;
+  padding: 0px 0;
+  }
+
+.navigation-bar {
+  display: flex;
+  justify-content: center;
+  font-family: 'Neucha', cursive;
+  font-size: 14px;
+  font-weight: 800;
+  color:  azure;
+  padding: 15px;
+  list-style-type: none;
+}
+
+.navigation-bar a {
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+  
+  a {
+    color: azure;
+  }
+  
+  a:hover{
+    text-decoration: none;
+  }
+ 
+img {
+    width: 1200px;
+  }

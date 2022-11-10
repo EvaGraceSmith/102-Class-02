@@ -23,7 +23,7 @@ function question1(){
     alert ('Please remember enter: yes or no!');
   }
 }
-question1();
+
 
 
 
@@ -81,7 +81,6 @@ function question4(){
 
 
 
-
 function question5(){
 
   let question5 = prompt('Has Eva ever lived overseas?');
@@ -122,7 +121,6 @@ function question6(){
 }
 
 
-
 function question7(){
   let fruit = ['grapes', 'bananas', 'strawberries', 'blueberries', 'apples'];
   let attempts = 0;
@@ -142,6 +140,7 @@ function question7(){
   }
 }
 
+question1();
 question2();
 question3();
 question4();
